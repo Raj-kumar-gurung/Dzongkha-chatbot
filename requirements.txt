@@ -1,0 +1,10 @@
+streamlit>=1.40
+python-dotenv>=1.0
+requests>=2.31
+# Local translation (NLLB). On Windows the default torch wheel is CPU-only, which is fine.
+torch>=2.2
+transformers>=4.40
+sentencepiece>=0.2
+protobuf>=4.25
+# Only used when GEMINI is added to PROVIDER_ORDER (optional, free tier)
+google-genai>=1.0

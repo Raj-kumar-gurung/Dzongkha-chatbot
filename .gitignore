@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Local state and results
+.translate_usage.json
+eval/results.md
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+eval/translation_results.md
