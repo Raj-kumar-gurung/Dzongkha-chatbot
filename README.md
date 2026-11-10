@@ -1,4 +1,4 @@
-# Dzongkha Chatbot (Streamlit + local Ollama + local translation)
+# 1. Dzongkha Chatbot (Streamlit + local Ollama + local translation)
 
 ## 2. Ask in English, Dzongkha, or a mix. Answers are shown in Dzongkha script. The screen has only a Dzongkha welcome message, the conversation, and a message box with a send button.
 
@@ -11,9 +11,7 @@
 | Translation, preferred | CST fine-tunes on Hugging Face: [`KarmaCST/nllb-200-distilled-600M-dz-to-en`](https://huggingface.co/KarmaCST/nllb-200-distilled-600M-dz-to-en) and `KarmaCST/nllb-200-distilled-600M-en-to-dz` | Public, licence `cc-by-nc-4.0`. I read the dz-to-en model card (fine-tune of NLLB-200-distilled-600M, no training set named, BLEU 42.9 on its own validation set). The en-to-dz repo appeared in search results but **I could not open its card**. |
 | Translation, backup | Meta [`facebook/nllb-200-distilled-600M`](https://huggingface.co/facebook/nllb-200-distilled-600M), codes `eng_Latn` / `dzo_Tibt` | Licence `cc-by-nc-4.0`. Meta calls it a research model, not for production, trained on inputs up to 512 tokens. |
 
-**None of these is GovTech's own fine-tuned model.** The CST models come from the same Bhutanese institution GovTech credits for the initial fine-tuning, but GovTech says 700,000 sentences and CST's page says 30K, so they are not shown to be the same model. Do not describe the output as "GovTech quality".
 
-**Licence:** CC-BY-NC means non-commercial use only. Fine for personal learning and research. If you want to use it inside a commercial product, check the licence and ask the model owners first.
 
 ## 3. How it works
 
